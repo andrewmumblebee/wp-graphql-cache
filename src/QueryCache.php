@@ -74,7 +74,8 @@ class QueryCache extends AbstractCache
 
         $query_hash = Utils::hash($query);
 
-        $this->key = "query-{$this->query_name}-${user_id}-{$query_hash}-${args_hash}";
+        $blog_id = get_current_blog_id();
+        $this->key = "query-{$blog_id}-{$this->query_name}-${user_id}-{$query_hash}-${args_hash}";
 
         $this->read_cache();
 

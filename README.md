@@ -6,12 +6,12 @@ Flexible caching framework for WPGraphQL v0.9.0 or later
 
 ## Installation
 
-    composer require valu/wp-graphql-cache
+    composer require andrewmumblebee/wp-graphql-cache
 
 Or you can clone it from Github to your plugins using the stable branch
 
     cd wp-content/plugins
-    git clone --branch stable https://github.com/valu-digital/wp-graphql-cache.git
+    git clone --branch stable https://github.com/andrewmumblebee/wp-graphql-cache.git
 
 ## Query Caching
 

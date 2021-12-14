@@ -1,5 +1,5 @@
 {
-    "name": "valu/wp-graphql-cache",
+    "name": "andrewmumblebee/wp-graphql-cache",
     "description": "Flexible caching framework for WPGraphQL",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
@@ -7,6 +7,11 @@
         {
             "name": "Esa-Matti Suuronen",
             "email": "esa-matti.suuronen@valu.fi",
+            "role": "developer"
+        },
+        {
+            "name": "Andrew Harris",
+            "email": "andrew.harris@squaredup.com",
             "role": "developer"
         }
     ],
